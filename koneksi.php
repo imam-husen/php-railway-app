@@ -1,8 +1,8 @@
 <?php
-$host = getenv('mysql.railway.internal');
-$username = getenv('root');
-$password = getenv('TDUmhZPQPExyjWypxADRxkofmpwCMayd');
-$database = getenv('railway');
+$host = 'autorack.proxy.rlwy.net'; // Gantilah dengan host dari MYSQL_PUBLIC_URL
+$username = 'root'; // Username (dalam kasus ini root)
+$password = 'CwRgmLQgtggBrOOQrogpyeHBSjLVBglG'; // Password dari MYSQL_ROOT_PASSWORD
+$database = 'railway'; // Nama database
 
 $conn = new mysqli($host, $username, $password, $database);
 
